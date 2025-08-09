@@ -1,0 +1,47 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.controls button {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background: #00ffd0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.video-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+#video {
+    width: 60%;
+    max-width: 720px;
+    border: 3px solid #00ffd0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1000;
+}

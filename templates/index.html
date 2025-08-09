@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Identifier</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1 class="header">YOLOv8 Object & Face Detection</h1>
+    <div class="controls">
+        <button onclick="toggleMode()">Switch Mode</button>
+        <button onclick="toggleAudio()">Toggle Audio</button>
+        <button onclick="capture()">Capture</button>
+        <button onclick="setCameraSource()">Set Camera Source</button>
+    </div>
+    <div class="video-container">
+        <img src="{{ url_for('video_feed') }}" id="video">
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
