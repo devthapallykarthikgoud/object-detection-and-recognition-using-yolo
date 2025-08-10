@@ -56,3 +56,5 @@ Automated visitor greeting systems
 Assistive tools for visually impaired users
 
 Smart shop monitoring
+![WhatsApp Image 2025-06-19 at 22 30 54_1dc2a41a](https://github.com/user-attachments/assets/99334fee-b2db-48c0-8117-48d811959016)
+![screenshot_1750483544](https://github.com/user-attachments/assets/ef57e1d8-4581-430c-9353-a808c0592440)
